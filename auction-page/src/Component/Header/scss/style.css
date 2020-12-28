@@ -99,6 +99,7 @@
 }
 
 .header .header-bottom .btm-left li {
+  cursor: pointer;
   padding: 0px 25px;
   font-size: 14px;
   font-weight: 500;
