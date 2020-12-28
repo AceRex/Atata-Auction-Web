@@ -38,7 +38,7 @@ export default function ItemsSlider() {
         <Itemcard img={Img4} name='mosaic bracelet' C_bid='5000' B_incr='1000' location='Benin, NG'/>
         <Itemcard img={Img5} name='Sculpture' C_bid='7800' B_incr='100' location='Accra, GH'/>
         <Itemcard img={Img6} name='Sculpture' C_bid='10000' B_incr='1000' location='Accra, GH'/>
-        <Itemcard img={Img7} name='Sculpture of Gods' C_bid='10000' B_incr='500' location='Accra, GH'/>
+        <Itemcard img={Img7} name='Sculpture of the Gods' C_bid='10000' B_incr='500' location='Accra, GH'/>
         <Itemcard img={Img8} name='Sculpture' C_bid='10000' B_incr='200' location='Accra, GH'/>
         <Itemcard img={Img9} name='Sculpture' C_bid='10000' B_incr='1000' location='Lagos, NG'/>
 
