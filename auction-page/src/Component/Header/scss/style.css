@@ -1,0 +1,78 @@
+.header {
+  background-color: var(--colorLight);
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header-logo {
+  width: 30%;
+  margin: auto;
+}
+
+.header .header-logo img {
+  width: 100px;
+  height: 75px;
+}
+
+.header .search {
+  width: 55%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .search .search-input {
+  width: 80%;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 9px;
+  border-radius: 5px;
+  background-color: var(--colorWhite);
+}
+
+.header .search .search-input input {
+  width: 90%;
+  margin: auto 5px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+.header .search .search-input span {
+  font-size: 20px;
+  margin: auto 5px;
+  padding: 5px;
+  color: #aaa;
+}
+
+.header .search .search-btn {
+  width: 15%;
+  background-color: var(--colorGreen);
+  border: none;
+  outline: none;
+  color: var(--colorWhite);
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.header .timer {
+  width: 20%;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */
