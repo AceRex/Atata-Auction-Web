@@ -3,7 +3,7 @@ const Datas = {
     {
         id: 0,
         title: 'Home',
-        link: 'www.atata57.com',
+        link: '/',
     },
     {
         id: 1,

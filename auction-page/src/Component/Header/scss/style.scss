@@ -71,47 +71,58 @@
         }
 
     }
-    .header-bottom{
+
+    .header-bottom {
         display: flex;
         padding: 0 10px;
         justify-content: space-between;
         color: var(--colorWhite);
         background-color: var(--colorGreen);
-        .btm-left{
+
+        .btm-left {
             display: flex;
             list-style-type: none;
             padding: 10px;
-            li{
+
+            a {
                 cursor: pointer;
                 padding: 0px 25px;
                 font-size: 14px;
                 font-weight: 500;
+                text-decoration: none;
+                color: var(--colorWhite);
+
             }
         }
-        .btm-right{
-           .User_Details{
-               display: flex;
-               list-style-type: none;
-               p{
-                padding: 10px 25px;
-                font-size: 14px;
-                font-weight: 500;
-               }
-               li{
-                background-color: #075500;
-                padding: 10px 25px;
-                font-size: 14px;
-                font-weight: 500;
-                cursor: pointer;
-                a{
-                    color: white;
-                    text-decoration: none;
+
+        .btm-right {
+            .User_Details {
+                display: flex;
+                list-style-type: none;
+
+                p {
+                    padding: 10px 25px;
+                    font-size: 14px;
+                    font-weight: 500;
                 }
-               }
-               li:nth-child(1){                   
-                border-right: solid 0.3px var(--colorLight);
-               }
-           }
+
+                li {
+                    background-color: #075500;
+                    padding: 10px 25px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    cursor: pointer;
+
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+
+                li:nth-child(1) {
+                    border-right: solid 0.3px var(--colorLight);
+                }
+            }
 
         }
     }

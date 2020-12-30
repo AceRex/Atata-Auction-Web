@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ItemsCarousel from "react-items-carousel";
 import "./scss/others.css";
+import { Link } from "react-router-dom";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 export default function ItemsSlider(props) {
@@ -49,7 +50,9 @@ export default function ItemsSlider(props) {
           <p>Date: {props.date}</p>
         </div>
       </div>
-      <button className="item-btn">View Items</button>
+      <Link to="/view-auction">
+        <div className="item-btn">View Items</div>
+      </Link>
     </div>
   );
 }

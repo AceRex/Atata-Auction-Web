@@ -1,12 +1,13 @@
 import "./scss/style.css";
 import Datas from "./headerContent";
+import { Link } from 'react-router-dom'
 
 export default function HeaderBottom() {
   return (
     <div className="header-bottom">
       <div className="btm-left">
         {Datas.List.map((item) => {
-          return <li>{item.title}</li>;
+          return <Link to={item.link}>{item.title}</Link>;
         })}
       </div>
       <div className="btm-right">

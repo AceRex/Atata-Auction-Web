@@ -1,0 +1,180 @@
+.auction-header {
+    padding: 10px;
+    border-bottom: solid 2px #dbdada;
+
+    .auction-header-details {
+        display: flex;
+        font-size: 14px;
+
+        p {
+            padding-right: 10px;
+        }
+
+        span {
+            padding-left: 10px;
+        }
+    }
+}
+
+.auction-details {
+    padding: 10px 20px;
+
+    .auction-current-items {
+        max-width: 100%;
+        height: 490px;
+        display: flex;
+        overflow: hidden;
+
+        .auction-images {
+            width: 55%;
+            height: 450px;
+
+            .image-container {
+                height: 450px;
+                padding: 10px;
+                overflow: hidden;
+
+                button {
+                    padding: 5px 8px;
+                    font-size: 20px;
+                    border: none;
+                    border-radius: 5px;
+                    outline: none;
+                    color: var(--colorWhite);
+                    background-color: #00000098;
+                }
+
+                .lft-btn {
+                    margin-left: 20px;
+                }
+
+                .rgt-btn {
+                    margin-right: 20px;
+                }
+
+                img {
+                    width: 100%;
+                    height: 450px;
+                }
+            }
+
+        }
+
+        .auction-item-details {
+            width: 45%;
+            padding: 10px;
+
+            .header {
+                padding: 13px;
+                color: var(--colorWhite);
+                text-align: center;
+                font-weight: 600;
+                font-size: 16px;
+                border-top-right-radius: 15px;
+                border-top-left-radius: 15px;
+                background-color: var(--colorGreen);
+            }
+
+            .info {
+                width: 95%;
+                padding: 5px;
+                margin: auto;
+
+                table {
+                    width: 100%;
+
+                    tr {
+                        width: 100%;
+
+                        td {
+                            width: 50%;
+                            font-size: 14px;
+                            border: solid 1px #e6e6e6;
+                            padding: 8px;
+                        }
+
+                    }
+
+                    td:nth-child(2) {
+                        font-size: 17px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .auction-market {
+        width: 100%;
+
+        .header {
+            padding: 13px;
+            color: var(--colorWhite);
+            text-align: center;
+            font-weight: 600;
+            font-size: 16px;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            background-color: var(--colorGreen);
+        }
+
+        .bidings {
+            display: flex;
+            padding: 10px;
+            height: 300px;
+            overflow: hidden;
+            background-color: #f4f4f4;
+
+            .live-bids {
+                width: 60%;
+                background-color: var(--colorWhite);
+                text-align: center;
+                padding: 80px;
+                color: red;
+
+                p {
+                    font-size: 20px;
+                }
+
+                h2 {
+                    font-size: 70px;
+                }
+            }
+
+            .place-bids {
+                width: 40%;
+
+                table {
+                    width: 96%;
+                    margin: auto;
+
+                    td {
+                        width: 50%;
+                        font-size: 14px;
+                        border: solid 1px #e6e6e6;
+                        padding: 10px;
+                    
+                        input {
+                            padding: 10px;
+                            border: solid 2px #aaa;
+                            border-radius: 5px;
+                        }
+                    }
+                    td:nth-child(2) {
+                        font-size: 17px;
+                        font-weight: 600;
+                    }
+                }
+                button{
+                    margin: 15px;
+                    padding: 10px;
+                    background-color: var(--colorGreen);
+                    color: #fff;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

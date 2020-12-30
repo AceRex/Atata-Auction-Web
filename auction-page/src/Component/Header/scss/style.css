@@ -99,11 +99,13 @@
   padding: 10px;
 }
 
-.header .header-bottom .btm-left li {
+.header .header-bottom .btm-left a {
   cursor: pointer;
   padding: 0px 25px;
   font-size: 14px;
   font-weight: 500;
+  text-decoration: none;
+  color: var(--colorWhite);
 }
 
 .header .header-bottom .btm-right .User_Details {

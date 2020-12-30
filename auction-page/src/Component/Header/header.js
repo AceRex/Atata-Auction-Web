@@ -3,7 +3,7 @@ import "./scss/style.css";
 import Logo from "./headerLogo.png";
 import { BsSearch } from "react-icons/bs";
 import HeaderBottom from "./headerBottom";
-import moment from "moment";
+import Moment from "react-moment";
 
 export default function Header() {
   return (
@@ -22,7 +22,10 @@ export default function Header() {
           <button className="search-btn">Search</button>
         </div>
         <div className="timer">
-          <span className="comment">{moment().format('MMMM Do YYYY, h:mm:ss a')}</span>
+          <span className="comment">
+            <Moment interval={1000}></Moment>
+            
+          </span>
         </div>
       </div>
       <HeaderBottom />
