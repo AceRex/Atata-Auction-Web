@@ -1,29 +1,23 @@
-.auction-slider {
-    margin: 35px auto;
-    height: 200%;
+.others-header {
+    font-size: 30px;
+    font-weight: 700;
+    color: #676F7C;
+    padding: 5px 45px;
+}
 
-    button {
-        padding: 5px;
-        font-size: 15px;
-        background-color: #aaa;
-        color: var(--colorWhite);
-        border: none;
-        border-radius: 5px;
-        outline: none;
-    }
+.others-container {
+    width: 100%;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 
-    .auction-header {
-        font-size: 30px;
-        font-weight: 700;
-        padding: 15px 0px;
-        color: #676F7C;
-    }
 
     .auction_card {
-        max-width: 100%;
+        max-width: 23%;
         overflow: hidden;
         box-shadow: 1px 5px 5px #00000031;
-
+        margin: 7px auto;
         .image-container {
             width: 100%;
 
@@ -78,33 +72,28 @@
                 }
             }
 
-            .Location {
-                padding: 10px 0px;
-                font-size: 11px;
-                font-weight: 600;
-            }
+      
+                .Location {
+                    padding: 10px 0px;
+                    font-size: 11px;
+                    font-weight: 600;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
 
         }
 
-        a {
+        .item-btn {
             width: 100%;
-            text-decoration: none;
-            font-size: 12px;
-
-            .item-btn {
-                background-color: var(--colorGreen);
-                width: 100%;
-                text-align: center;
-                color: var(--colorWhite);
-                padding: 10px;
-                border: none;
-                border-top-right-radius: 0;
-                border-top-left-radius: 0;
-                outline: none;
-                cursor: pointer;
-            }
+            padding: 10px 0px;
+            border: none;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            background-color: var(--colorGreen);
+            color: var(--colorWhite);
+            outline: none;
+            cursor: pointer;
         }
-
-
     }
 }

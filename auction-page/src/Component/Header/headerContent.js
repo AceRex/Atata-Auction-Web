@@ -12,11 +12,6 @@ const Datas = {
     },
     {
         id: 2,
-        title: 'Auctions',
-        link: '/Auctions',
-    },
-    {
-        id: 3,
         title: 'Support',
         link: '/support',
     },

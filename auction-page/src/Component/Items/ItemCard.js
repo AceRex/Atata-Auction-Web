@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {Link } from 'react-router-dom'
 import ItemsCarousel from "react-items-carousel";
 import "./scss/Items.css";
 import {IoIosArrowBack, IoIosArrowForward} from 'react-icons/io'
@@ -41,9 +42,11 @@ export default function ItemsSlider(props) {
         <hr/>
         <p className='Location'>Location: {props.location}</p>
     </div>
-    <button className='item-btn'>
-        View Items
-    </button>
+    <Link to='/view-auction'>
+      <div className='item-btn'>
+      View Items
+      </div>
+    </Link>
     </div>
   );
 }

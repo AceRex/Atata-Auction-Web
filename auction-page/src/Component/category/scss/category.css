@@ -1,0 +1,37 @@
+.cate_contain {
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  background-color: #2F3942;
+}
+
+.cate_contain .cate_header {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--colorWhite);
+}
+
+.cate_contain .cate_cate {
+  width: 96%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.cate_contain .cate_cate p {
+  width: 25%;
+  margin: 15px 0px;
+  font-size: 13px;
+}
+
+.cate_contain .cate_cate p a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+/*# sourceMappingURL=category.css.map */

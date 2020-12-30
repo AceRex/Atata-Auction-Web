@@ -1,0 +1,8 @@
+.footer_cont{
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--colorWhite);
+    background-color: #3D4A55;
+}
