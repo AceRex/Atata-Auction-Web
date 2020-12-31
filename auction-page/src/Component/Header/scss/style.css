@@ -127,14 +127,11 @@
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
+  margin: 0px 1px;
 }
 
 .header .header-bottom .btm-right .User_Details li a {
   color: white;
   text-decoration: none;
-}
-
-.header .header-bottom .btm-right .User_Details li:nth-child(1) {
-  border-right: solid 0.3px var(--colorLight);
 }
 /*# sourceMappingURL=style.css.map */

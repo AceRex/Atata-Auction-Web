@@ -17,6 +17,7 @@ export default function HeaderBottom() {
           </div>
         ) : (
           <div className="User_Details User_Details_btn">
+              <li><a href="https://www.atata57.com" target='_blank'>Navigate to our Main Site</a></li>
               <li><a href='/'>Register</a></li>
               <li><a href='/'>Login</a></li>
 

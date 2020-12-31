@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import App from './App';
 import ViewPage from './Component/viewPage/viewPage';
+import SellAnItem from './Component/sell-an-item/sell-an-item';
 
 
 ReactDOM.render(
@@ -18,6 +19,9 @@ ReactDOM.render(
       </Route>
       <Route path ='/view-auction'>
       <ViewPage />
+      </Route>
+      <Route path ='/sell-an-item'>
+      <SellAnItem />
       </Route>
     </Switch>
   </Router>,
